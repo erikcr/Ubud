@@ -16,7 +16,7 @@ routes:
     template: archive
 
 collections:
-  /blog/:
+  /newsletter/:
     permalink: /{slug}/
     template: index
 
