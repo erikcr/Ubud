@@ -17,14 +17,14 @@
         <div class='c-nav-wrap'>
           <ul class='c-nav o-plain-list'>
             {{ navigation }}
-            {{#if @member}}
+            {{!-- {{#if @member}}
               <li class='c-nav__item is-membership'><a href='{{ @site.url }}/account/' class='c-nav__link js-nav__link-membership'>{{t 'Account' }}</a></li>
               <li class='c-nav__item is-membership'><a href='#signout' class='c-nav__link' data-members-signout>{{t 'Log out' }}</a></li>
             {{else}}
               <li class='c-nav__item is-membership'><a href='{{ @site.url }}/signin/' class='c-nav__link js-nav__link-membership'>{{t 'Log in' }}</a></li>
               <li class='c-nav__item is-membership'><a href='{{ @site.url }}/membership/' class='c-nav__link u-color-brand js-nav__link-membership'>{{t 'Membership' }}</a></li>
             {{/if}}
-            {{> social-icons }}
+            {{> social-icons }} --}}
           </ul>
         </div>
 
